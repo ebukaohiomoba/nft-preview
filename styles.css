@@ -8,12 +8,16 @@ body{
     align-items: center;
     justify-content: center;
     height: 95vh;
+    
 }
 .main-text{
-    box-shadow: 5px 5px 5px 5px, 5px 5px 5px 5px ;
+    box-shadow: 5px 5px 5px 5px;
     width: 50vh;
     height: 80vh;
     background-color: hsl(216, 50%, 16%);
+    border-radius: 25px;
+    min-width: auto;
+    overflow: auto;
 }
 h1{
     font-size: 30px;
@@ -22,16 +26,25 @@ h1{
 }
 p{
     text-align: center;
+    
 }
 
 img{
-    width: 75%;
-    height: 60%;
+    width: 80%;
+    height: 70%;
+    border-radius: 10%;
 }
+
 .img-container{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 400px;
+    position: relative;
+
 }      
+
+.attribution{
+    vertical-align: bottom;
+}
 
