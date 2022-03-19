@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(13,26,45,255);
+    background-color: hsl(217, 54%, 11%);
     font-family: 'Roboto', sans-serif;
 }
 .container{
@@ -13,7 +13,7 @@ body{
     box-shadow: 5px 5px 5px 5px, 5px 5px 5px 5px ;
     width: 50vh;
     height: 80vh;
-    background-color: rgba(21,39,63,255);
+    background-color: hsl(216, 50%, 16%);
 }
 h1{
     font-size: 30px;
